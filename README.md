@@ -15,3 +15,11 @@ Exercute um docker build.
 ## Criando o Azure Container Registry
 Execute o comando az login para logar no azure.
 
+Crie um grupo de Recuros.
+
+Crie um ACR
+
+Faça login no ACR
+
+
+
