@@ -1,7 +1,7 @@
 # Projeto blog containerApp
 Projeto da DIO de criar um blog no container App do Azure
 
-Nesse projeto vamos ter um blog hospedado no serviço de Container APP.
+Nesse projeto vamos criar um blog usando serviços do Azure para demonstrar o funcionamento de aplicações web hospedadas na nuvem.
 
 
 
