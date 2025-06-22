@@ -34,4 +34,11 @@ Colocar tag na imagem e fazer push para o ACR
 docker tag blog-flp-app:latest nome-do-acr.azureacr.io/blog-flp-app:latest
 docker push nome-do-acr.azureacr.io/blog-flp-app:latest
 ```
+## Parte 3
+Vá para o portal do Azure
+Entre no ACR criado e acesse a opção de Access Keys.
+La habilite o admin user
+Copie o username e a senha.
+![2025-06-22](https://github.com/user-attachments/assets/8e7a3186-3c31-4a0a-ae93-4ec5fa3c2178)
+
 
