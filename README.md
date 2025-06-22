@@ -59,3 +59,8 @@ az containerapp create \
 --registry-password senha \
 --registry-server containner ID
 ```
+Com isso, o blog já está no ar.
+![2025-06-22 (1)](https://github.com/user-attachments/assets/21fd0e3f-928c-48f9-a79c-8cdc7c43c0d0)
+
+
+
