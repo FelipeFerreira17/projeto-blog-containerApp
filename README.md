@@ -46,4 +46,15 @@ Crie o Environment
 ```
 az containerapp env create --name blog-flp-env --resource-group nome-do-grupo --location nome-da-região
 ```
-
+Crie o container APP
+```
+az containerapp create \
+--name blog-flp-app \
+--resource-group nome-do-grupo \
+--image nome-do-acr.azureacr.io/blog-flp-app:latest \
+--environment blog-flp-env \
+--target-port 80 \
+--ingress external \
+--registry-username username \
+--registry-password senha \
+--registry-
