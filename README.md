@@ -41,5 +41,8 @@ La habilite o admin user
 Copie o username e a senha.
 ![2025-06-22](https://github.com/user-attachments/assets/5a68d361-df0f-4da8-9ec9-6b9fd65d59b3)
 
+## Parte 4
+Crie o Environment
+
 
 
