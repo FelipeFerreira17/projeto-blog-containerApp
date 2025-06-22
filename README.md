@@ -57,4 +57,5 @@ az containerapp create \
 --ingress external \
 --registry-username username \
 --registry-password senha \
---registry-
+--registry-server containner ID
+```
