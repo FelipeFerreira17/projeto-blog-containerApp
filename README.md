@@ -43,6 +43,7 @@ Copie o username e a senha.
 
 ## Parte 4
 Crie o Environment
-
-
+```
+az containerapp env create --name blog-flp-env --resource-group nome-do-grupo --location nome-da-região
+```
 
