@@ -21,8 +21,14 @@ Faça login no azure com o seguinte comando
 ```
 az login
 ```
+Crie um grupo de recursos
 
-
+Crie o ACR e faça login nele
+```
+az group create --name nome-do-grupo --location nome-da-região
+az acr create --resource-group nome-do-grupo --name nome-do-acr --sku basic
+az acr login --name nome-do-acr
+```
 
 
 
