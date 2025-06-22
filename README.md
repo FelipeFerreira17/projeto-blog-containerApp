@@ -29,6 +29,9 @@ az group create --name nome-do-grupo --location nome-da-região
 az acr create --resource-group nome-do-grupo --name nome-do-acr --sku basic
 az acr login --name nome-do-acr
 ```
-
-
+Colocar tag na imagem e fazer push para o ACR
+```
+docker tag blog-flp-app:latest nome-do-acr.azureacr.io/blog-flp-app:latest
+docker push nome-do-acr.azureacr.io/blog-flp-app:latest
+```
 
